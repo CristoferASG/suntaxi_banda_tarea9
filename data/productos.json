@@ -1,0 +1,33 @@
+{
+  "productos": [
+    {
+      "id": 1,
+      "nombre": "Laptop Dell",
+      "precio": 1200.00,
+      "stock": 10,
+      "categoría": "Electrónica"
+    },
+    {
+      "id": 2,
+      "nombre": "Mouse Logitech",
+      "precio": 25.50,
+      "stock": 50,
+      "categoría": "Accesorios"
+    },
+    {
+      "id": 3,
+      "nombre": "Teclado Mecanico",
+      "precio": 89.99,
+      "stock": 20,
+      "categoría": "Accesorios"
+        
+    },
+    {
+      "id": 4,
+      "nombre": "Monitor LG",
+      "precio": 299.99,
+      "stock": 15,
+      "categoría": "Electrónica"
+    }
+  ]
+}
