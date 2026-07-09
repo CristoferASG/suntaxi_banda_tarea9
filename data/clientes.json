@@ -1,0 +1,29 @@
+{
+  "clientes": [
+    {
+      "id": 1,
+      "nombre": "Juan Perez",
+      "email": "juan@email.com",
+      "telefono": "123456789"
+    },
+    {
+      "id": 2,
+      "nombre": "Maria Garcia",
+      "email": "maria@email.com",
+      "telefono": "987654321"
+    },
+    {
+      "id": 3,
+      "nombre": "Pedro Lopez",
+      "email": "pedro@email.com",
+      "telefono": "555666777"
+    },
+    {
+      "id": 4,
+      "nombre": "diego banda",
+      "email": "diego@email.con",
+      "direccion":"calle 123",
+      "telefono": "856574647"
+    }
+  ]
+}
