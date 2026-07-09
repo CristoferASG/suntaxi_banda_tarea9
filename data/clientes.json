@@ -22,6 +22,7 @@
       "id": 4,
       "nombre": "diego banda",
       "email": "diego@email.com",
+      "direccion":"calle 123",
       "telefono": "856574647"
     }
   ]
