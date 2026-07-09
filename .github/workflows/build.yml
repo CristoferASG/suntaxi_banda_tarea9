@@ -1,0 +1,31 @@
+name: Build and Validate
+
+on:
+  push:
+    branches: [main, feature-*]
+  pull_request:
+    branches: [main]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Validar productos.json
+        run: |
+          python -m json.tool data/productos.json > /dev/null
+          echo "✅ productos.json es válido"
+
+      - name: Validar clientes.json
+        run: |
+          python -m json.tool data/clientes.json > /dev/null
+          echo "✅ clientes.json es válido"
+
+      - name: Mostrar contenido
+        run: |
+          echo "📦 Productos:"
+          cat data/productos.json
+          echo ""
+          echo "👤 Clientes:"
+          cat data/clientes.json
