@@ -17,6 +17,12 @@
       "nombre": "Teclado Mecanico",
       "precio": 89.99,
       "stock": 20
+    },
+    {
+      "id": 4,
+      "nombre": "Monitor LG",
+      "precio": 299.99,
+      "stock": 15
     }
   ]
 }
