@@ -17,6 +17,13 @@
       "nombre": "Pedro Lopez",
       "email": "pedro@email.com",
       "telefono": "555666777"
+    },
+    {
+      "id": 4,
+      "nombre": "diego banda",
+      "email": "diego@email.con",
+      "direccion":"calle 123",
+      "telefono": "856574647"
     }
   ]
 }
