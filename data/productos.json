@@ -28,6 +28,14 @@
       "precio": 299.99,
       "stock": 15,
       "categoría": "Electrónica"
+    },
+    {
+      "id": 5,
+      "nombre": "Auriculares Sony",
+      "precio": 150.00,
+      "stock": 30,
+      "categoría": "Accesorios"
     }
+
   ]
 }
